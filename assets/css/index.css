@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{ /* custom propities */
+    --text-black: #303030;
+    --text-white: #FFFFFF;
+    --color-primary: #1e293b;
+    --color-secondary: #0f172a;
+}
+
+html{
+    font-size: 65.2%;
+}
+
+body{
+    font-size: 16px; /* 1rem = 10px*/
+    background-color: var(--color-secondary);
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: var(--color-primary);
+    color: var(--text-white);
+    padding: 2rem; /* van en dirección a las manecillas del reloj. si hay dos valores, el primero es t y b , el segundo es l y r */
+    display: grid;
+    width: 100%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.148);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.titulo-pagina{
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width: 4rem;
+}
+
+.titulo-pagina h2{
+    font-size: 2.5rem;
+}
+
+.menu-nav a{
+    color: var(--text-white);
+    text-decoration: none;
+
+}
