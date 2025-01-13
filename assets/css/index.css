@@ -276,3 +276,15 @@ body{
     color: var(--text-black);
     text-align: left;
 }
+
+.footer{
+    background-color: var(--color-primary);
+    margin-top: 4rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.footer p{
+    color: var(--text-white);
+    font-size: small;
+}
