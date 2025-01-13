@@ -37,3 +37,8 @@ if (seleccionPlaneta) {
 }
 
 }
+
+document.addEventListener("click",()=>{
+    const audio = document.getElementById("musiquita");
+    audio.play();
+})
