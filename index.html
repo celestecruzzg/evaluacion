@@ -60,10 +60,17 @@
                 </div>
             </div>
         </section>
-        <section id="explorador">
+        <section id="explorador" class="explorador">
             <div class="explorador-text">
-                <h2>Explorador</h2>
+                <h2>Explorador de planetas</h2>
             </div>
+            <div class="planetas">
+                <button onclick="showPlanetaInfo('Mercurio')">Mercurio</button>
+                <button onclick="showPlanetaInfo('Venus')">Venus</button>
+                <button onclick="showPlanetaInfo('Tierra')">Tierra</button>
+                <button onclick="showPlanetaInfo('Marte')">Marte</button>
+            </div>
+            <div id="planeta-info" class="container-cards-planetas"></div>
         </section>
     </main>
     <footer>
